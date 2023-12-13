@@ -71,22 +71,30 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 
 
-
+``
 
 git 삭제
 rm -rf .git
 
 git 초기 설정
+
 git init
+
 git add .
+
 git commit -m "Commit Message"
+
 git remote add origin https://github.com/<username>/<repository>.git
+
 git push -u origin master => 비번은 github에서 발급받은 토큰으로 입력하여야 한다.
 
+git branch 이름 변경 방법
 
-git branch 이름 변경
 git branch another-branch
+
 git checkout another-branch
+
 git branch -m old-branch new-branch
+
 git push origin -u new-branch
 
