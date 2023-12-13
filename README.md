@@ -81,7 +81,7 @@ git init
 git add .
 git commit -m "Commit Message"
 git remote add origin https://github.com/<username>/<repository>.git
-git push -u origin master
+git push -u origin master => 비번은 github에서 발급받은 토큰으로 입력하여야 한다.
 
 
 git branch 이름 변경
