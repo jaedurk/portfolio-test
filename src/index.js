@@ -4,19 +4,19 @@ import './index.css';
 
 import reportWebVitals from './reportWebVitals';
 
-import Accommodate from "./chapter_07/accommodate";
-import ConfirmButton from "./chapter_08/confirmbutton";
-
+// import Accommodate from "./chapter_07/accommodate";
+// import ConfirmButton from "./chapter_08/confirmbutton";
 // import Clock from "./chapter_04/Clock";
 
 // const root = ReactDOM.createRoot(document.getElementById('root'));
 
 // import CommentList from "./chapter_05/CommentList";
 // import NotificationList from "./chapter_06/NotificationList";
+import LandingPage from "./chapter_09/LandingPage";
 
 ReactDOM.createRoot(document.getElementById('root')).render(
     <React.StrictMode>
-        <ConfirmButton/>
+        <LandingPage/>
     </React.StrictMode>,
 );
 
