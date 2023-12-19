@@ -12,11 +12,13 @@ import reportWebVitals from './reportWebVitals';
 
 // import CommentList from "./chapter_05/CommentList";
 // import NotificationList from "./chapter_06/NotificationList";
-import LandingPage from "./chapter_09/LandingPage";
+// import LandingPage from "./chapter_09/LandingPage";
+// import AttendanceBook from "./chapter_10/AttendanceBook";
+import Signup from "./chapter_11/Signup";
 
 ReactDOM.createRoot(document.getElementById('root')).render(
     <React.StrictMode>
-        <LandingPage/>
+        <Signup/>
     </React.StrictMode>,
 );
 

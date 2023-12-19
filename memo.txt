@@ -13,3 +13,9 @@ false
 null
 undefined
 NaN (not a number)
+
+
+
+
+react
+map() 함수안에있는 Elements는 꼭 key가 필요하다
