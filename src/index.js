@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 
 import reportWebVitals from './reportWebVitals';
+import Calculator from "./chapter_12/Calculator";
 
 // import Accommodate from "./chapter_07/accommodate";
 // import ConfirmButton from "./chapter_08/confirmbutton";
@@ -14,11 +15,12 @@ import reportWebVitals from './reportWebVitals';
 // import NotificationList from "./chapter_06/NotificationList";
 // import LandingPage from "./chapter_09/LandingPage";
 // import AttendanceBook from "./chapter_10/AttendanceBook";
-import Signup from "./chapter_11/Signup";
+// import Signup from "./chapter_11/Signup";
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
     <React.StrictMode>
-        <Signup/>
+        <Calculator />
     </React.StrictMode>,
 );
 
