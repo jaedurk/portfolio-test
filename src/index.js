@@ -3,7 +3,8 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 
 import reportWebVitals from './reportWebVitals';
-import Calculator from "./chapter_12/Calculator";
+// import Calculator from "./chapter_12/Calculator";
+import ProfileCard from "./chapter_13/ProfileCard";
 
 // import Accommodate from "./chapter_07/accommodate";
 // import ConfirmButton from "./chapter_08/confirmbutton";
@@ -20,7 +21,7 @@ import Calculator from "./chapter_12/Calculator";
 
 ReactDOM.createRoot(document.getElementById('root')).render(
     <React.StrictMode>
-        <Calculator />
+        <ProfileCard />
     </React.StrictMode>,
 );
 
