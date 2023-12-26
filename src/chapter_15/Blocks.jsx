@@ -19,6 +19,7 @@ const Block = styled.div`
   text-align: center;
 `;
 
+
 const blockItems = [
     {
         label: '1',
