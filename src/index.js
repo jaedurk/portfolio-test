@@ -17,12 +17,13 @@ import reportWebVitals from './reportWebVitals';
 // import LandingPage from "./chapter_09/LandingPage";
 // import AttendanceBook from "./chapter_10/AttendanceBook";
 // import Signup from "./chapter_11/Signup";
-import DarkOrLight from "./chapter_14/DarkOrLight";
+// import DarkOrLight from "./chapter_14/DarkOrLight";
+import Blocks from "./chapter_15/Blocks";
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
     <React.StrictMode>
-        <DarkOrLight/>
+        <Blocks/>
     </React.StrictMode>,
 );
 

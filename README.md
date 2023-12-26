@@ -103,3 +103,11 @@ git branch -m old-branch new-branch
 
 git push origin -u new-branch
 
+
+
+# style-components 설치
+# npm을 사용하는 경우
+npm install --save styled-components
+
+# yarn을 사용하는 경우
+yarn add styled-components
